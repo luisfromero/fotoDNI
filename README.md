@@ -1,15 +1,25 @@
 # Generador de Fotografías Tamaño Carnet para DNI Español
 
-Este proyecto en Python permite generar de manera sencilla una cuadrícula de **12 fotografías tamaño carnet** (32x26 mm) a partir de una imagen original. Ideal para obtener múltiples fotos para documentos oficiales, ajustadas a las dimensiones requeridas para el **DNI español**.
+Este proyecto en Python permite generar de manera sencilla una cuadrícula de **12 fotografías tamaño carnet** (32x26 mm) a partir de una fotografía no ajustada. Ideal para obtener múltiples fotos para documentos oficiales, ajustadas a las dimensiones requeridas para el **DNI español**.
 
 ## Descripción del Proyecto
 
-El objetivo de este proyecto es procesar una imagen de retrato y generar una **superimagen en una cuadrícula de 3x4** que contenga 12 fotografías tamaño carnet. Las fotos se recortan y ajustan a las proporciones necesarias, y se añaden tres versiones con ajustes de brillo (ajustables) para adaptarse a diferentes condiciones de impresión.
+El objetivo es que con solo dos clicks, se pueda procesar una imagen de retrato y generar una **superimagen en una cuadrícula de 3x4** que contenga 12 fotografías tamaño carnet. 
 
-<img src="foto.jpeg" alt="drawing" width="200"/> <img src="foto_crop.jpg" alt="drawing" width="166"/> <img src="final.jpg" alt="drawing" width="140"/>
+* Pon la url de la imagen en el código y ejecuta las 3 primeras celdas. Te pedirá dos clicks:
+* El primer click se realiza justo a la altura del pelo
+* El segundo click bajo la barbilla
+* Ejecuta el resto de celdas
+
+
+Las fotos se recortan y ajustan a las proporciones necesarias, y se añaden tres versiones con ajustes de brillo (ajustables) para adaptarse a diferentes condiciones de impresión.
+
+<img src="foto.jpeg" alt="drawing" width="100"/> &rarr; <img src="foto_crop.jpg" alt="drawing" width="82"/> &rarr; <img src="final.jpg" alt="drawing" width="60"/>
 
 
 ## Características
+
+Estos son cosas del chatGPT que me hizo el borrador del readme:
 
 - **Proporciones Correctas**: Las fotos se recortan con una relación de aspecto de 26:32 (ancho x alto), cumpliendo con las dimensiones oficiales del DNI español.
 - **Brillo Ajustado**: Además de la imagen original, se generan versiones con más o menos de brillo.
