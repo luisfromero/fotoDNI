@@ -4,17 +4,25 @@ Este proyecto en Python permite generar de manera sencilla una cuadrícula de **
 
 ## Descripción del Proyecto
 
+<<<<<<< HEAD
 El objetivo de este proyecto es procesar una imagen de retrato y generar una **superimagen en una cuadrícula de 3x4** que contenga 12 fotografías tamaño carnet. Las fotos se recortan y ajustan a las proporciones necesarias, y se añaden tres versiones con ajustes de brillo (ajustables) para adaptarse a diferentes condiciones de impresión.
 
 <img src="foto.jpeg" alt="drawing" width="200"/>
 <img src="foto_crop.jpg" alt="drawing" width="166"/>
 <img src="final.jpg" alt="drawing" width="140"/>
 
+=======
+El objetivo de este proyecto es procesar una imagen de retrato y generar una **superimagen en una cuadrícula de 3x4** que contenga 12 fotografías tamaño carnet. Las fotos se recortan y ajustan a las proporciones necesarias, y se añaden dos versiones con ajustes de brillo (+10% y -10%) para adaptarse a diferentes condiciones de impresión.
+>>>>>>> 38b851723dd5bdb5cec622a8a7b2ac9073628229
 
 ## Características
 
 - **Proporciones Correctas**: Las fotos se recortan con una relación de aspecto de 26:32 (ancho x alto), cumpliendo con las dimensiones oficiales del DNI español.
+<<<<<<< HEAD
 - **Brillo Ajustado**: Además de la imagen original, se generan versiones con más o menos de brillo.
+=======
+- **Brillo Ajustado**: Además de la imagen original, se generan versiones con un 10% más y un 10% menos de brillo.
+>>>>>>> 38b851723dd5bdb5cec622a8a7b2ac9073628229
 - **Cuadrícula 3x4**: Las fotos se organizan en una superimagen en formato de cuadrícula de 3x4, con un borde gris y un espaciado uniforme.
 
 ## Requisitos
@@ -32,7 +40,11 @@ pip install pillow matplotlib ipympl
 
 ## Ejemplo de Resultado
 
+<<<<<<< HEAD
 ![Superimagen con Cuadrícula de 12 Fotografías](final.jpg)
+=======
+[Superimagen con Cuadrícula de 12 Fotografías](final.jpg)
+>>>>>>> 38b851723dd5bdb5cec622a8a7b2ac9073628229
 
 ## Configuración de Dimensiones y Espaciado
 
